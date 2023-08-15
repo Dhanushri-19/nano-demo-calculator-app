@@ -17,7 +17,6 @@ def add():
 def subtract():
     num1=request.json.get('first')
     num2=request.json.get('second')
-    print(num1-num2)
     return jsonify(num1-num2)
 
 if __name__ == '__main__':
